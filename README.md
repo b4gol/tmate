@@ -21,7 +21,7 @@ Here are some useful notes to using this tool brewed with black magic xD !
 
 #### Credits and Thanks to People Who Helped me ####
 
-Script Made by [***Aryan Sinha***](https://github.com/techyminati)
+Thanks for [***Aryan Sinha***](https://github.com/techyminati)
 
 Thanks Github For Running this on Github Actions
 
