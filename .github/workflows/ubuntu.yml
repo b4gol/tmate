@@ -16,6 +16,8 @@ jobs:
         key_file: id_ecdsa
     - uses: actions/checkout@v2
     - run: source ubuntu-run.sh
-    - name: Setup tmate session
+    - name: Checkout
       timeout-minutes: 340
-      uses: mxschmitt/action-tmate@master
+      uses: actions/checkout@v2.4.2
+
+
