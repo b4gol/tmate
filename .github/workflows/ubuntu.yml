@@ -18,6 +18,4 @@ jobs:
     - run: source ubuntu-run.sh
     - name: Setup tmate Decent
       timeout-minutes: 340
-      uses: actions/action-tmate@v2
-
-
+      uses: mxschmitt/action-tmate@v2
