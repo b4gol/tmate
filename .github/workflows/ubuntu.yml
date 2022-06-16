@@ -16,6 +16,6 @@ jobs:
         key_file: id_ecdsa
     - uses: actions/checkout@v3
     - run: source ubuntu-run.sh
-    - name: Setup Decent Deckflows
+    - name: Setup Decent Drone
       timeout-minutes: 340
-      uses: B4gol/action-tmate@v2
+      uses: B4gol/drone-cli@v2
