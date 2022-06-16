@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: B4gol/workflows/ssh@decent
+    - uses: B4gol/tmate/ssh@main
       with:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
