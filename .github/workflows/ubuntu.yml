@@ -14,8 +14,7 @@ jobs:
       with:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
-    - uses: actions/checkout@v3
+    - uses: B4gol/deckflows/ssh@decent
     - run: source ubuntu-run.sh
-    - name: Setup Decent Drone
+    - name: Setup Deck Ubuntu
       timeout-minutes: 340
-      uses: B4gol/drone-cli/.drone.yml
