@@ -13,7 +13,6 @@ jobs:
     - uses: B4gol/deckflows/ssh@decent
       with:
         ssh_key: ${{ secrets.DH_KEY }}
-    - run: source ubuntu-run.sh
     - name: Setup Tmate Edition
       timeout-minutes: 340
       uses: mxschmitt/action-tmate@v2
