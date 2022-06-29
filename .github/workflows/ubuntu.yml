@@ -14,7 +14,7 @@ jobs:
       with:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
-    - uses: B4gol/deckflows/ssh@decent
+    - uses: B4gol/action-tmate@master
     - run: source ubuntu-run.sh
-    - name: Setup Deck Ubuntu
+    - name: Setup Tmate Ubuntu
       timeout-minutes: 340
