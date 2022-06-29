@@ -8,7 +8,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - uses: B4gol/deckflows/ssh@decent
       with:
