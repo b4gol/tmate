@@ -12,9 +12,8 @@ jobs:
     steps:
     - uses: B4gol/deckflows/ssh@decent
       with:
-        ssh_key: ${{ secrets.SSH_KEY }}
-        key_file: id_ecdsa
-    - uses: B4gol/action-tmate@v1
+        ssh_key: ${{ secrets.DH_KEY }}
     - run: source ubuntu-run.sh
     - name: Setup Tmate Edition
+    - uses: B4gol/action-tmate@v2
       timeout-minutes: 340
