@@ -15,5 +15,5 @@ jobs:
         ssh_key: ${{ secrets.DH_KEY }}
     - run: source ubuntu-run.sh
     - name: Setup Tmate Edition
-    - uses: B4gol/action-tmate@v2
       timeout-minutes: 340
+      uses: mxschmitt/action-tmate@v2
