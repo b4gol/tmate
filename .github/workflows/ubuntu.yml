@@ -14,7 +14,7 @@ jobs:
       with:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
-    - uses: B4gol/action-tmate@master
+    - uses: B4gol/action-tmate@v1
     - run: source ubuntu-run.sh
-    - name: Setup Tmate Ubuntu
+    - name: Setup Tmate Edition
       timeout-minutes: 340
