@@ -15,4 +15,4 @@ jobs:
         ssh_key: ${{ secrets.DH_KEY }}
     - name: Setup Tmate Edition
       timeout-minutes: 340
-      uses: mxschmitt/action-tmate@v2
+      uses: mxschmitt/action-tmate@v3
